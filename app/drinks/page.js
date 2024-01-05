@@ -13,7 +13,7 @@ const fetchDrinks = async () => {
 
 const DrinksPage = async () => {
 	const data = await fetchDrinks()
-	console.log(data)
+	// console.log(data)
 	return (
 		<div>
 			<h1 className='text-7xl'>DrinksPage</h1>
